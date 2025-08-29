@@ -33,10 +33,6 @@ def openDiscord():
     os.startfile(config.discord)
     return random.choice(["Загружаю сэр", "Всегда к вашим услугам сэр", "Запрос выполнен сэр", "К вашим услугам сэр"])
 
-def openMinecraft():
-    os.startfile(config.minecraft)
-    return random.choice(["Загружаю сэр", "Всегда к вашим услугам сэр", "Запрос выполнен сэр", "К вашим услугам сэр"])
-
 def openEpicGames():
     os.startfile(config.epicGames)
     return random.choice(["Загружаю сэр", "Всегда к вашим услугам сэр", "Запрос выполнен сэр", "К вашим услугам сэр"])
@@ -84,4 +80,5 @@ def powerOff():
     
 
 def executor(funcName):
+
     return globals()[funcName]()
