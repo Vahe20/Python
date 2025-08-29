@@ -19,14 +19,12 @@ commands_dict = {
         'weather': ['погода', 'weather', 'եղանակ'],
         'time': ['время', 'time', 'ժամանակ', 'ժամ'],
         'openDiscord': ['discord', 'дискорд', 'рткрой дискорд', 'рткрой discord'],
-        "openMinecraft": ["minecraft", "майнкрафт"],
         'screenShot': ['screenshot', 'скриншот', 'сделай скриншот'],
     }
 }
 
-steam = "C:\\Program Files (x86)\\Steam\\steam.exe"
-discord = "C:\\Users\\Karen Ghazaryan\\AppData\\Local\\Discord\\Update.exe"
-vsCode = "C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-minecraft = "C:\\Users\\Karen Ghazaryan\\AppData\\Roaming\\.minecraft\\TLauncher.exe"
-epicGames = "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe"
-gtaRp = "C:\\Program Files (x86)\\GTA5RP\\GTA5RPLauncher.exe"
+steam = "C:\\"
+discord = "C:\\"
+vsCode = "C:\\"
+epicGames = "C:\\"
+gtaRp = "C:\\"
